@@ -95,7 +95,7 @@ export default function Hero() {
         >
           <p className="text-white/60 inline">I&apos;m </p>
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-          Shah HArsh
+          Harsh Shah
           </span>
           <p>a DevOps Engineer</p>
         </motion.h1>
@@ -114,16 +114,17 @@ export default function Hero() {
         <motion.div
           ref={imgRef}
           style={{ rotate }}
-          className="h-image flex items-center w-[310px] h-[380px] xl:w-[390px] xl:h-[470px] justify-center relative"
+          className="flex items-center justify-center w-[390px] h-[470px] bg-transparent"
           initial={{ opacity: 0 }}
           animate={animateIn1}
         >
           <Image
-            src="/image.png"
+            src="/harsh.jpg"
             priority
-            fill
+            width={390}
+            height={470}
             alt="Ade's picture"
-            className="bg-image-radial px-10 pt-20"
+            className="rounded-xl shadow-xl object-cover"
           />
         </motion.div>
       </div>

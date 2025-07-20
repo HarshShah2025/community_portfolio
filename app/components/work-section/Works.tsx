@@ -28,7 +28,7 @@ export default function Works() {
       about:
         "Scalable CI/CD platform leveraging Jenkins, Docker, and Kubernetes. Implements infrastructure as code using Terraform for AWS resources, includes automated testing, security scanning, and blue-green deployment strategies.",
       stack: ["jenkins", "docker", "aws", "terraform", "python"],
-      img: "/project.png",
+      img: "/cicd.png",
     },
     {
       title: "infrastructure-monitoring-suite",
@@ -37,7 +37,7 @@ export default function Works() {
       about:
         "Comprehensive monitoring solution combining ELK Stack for log aggregation, Prometheus for metrics collection, and custom Grafana dashboards. Features automated alerting, log parsing, and performance analytics.",
       stack: ["elasticsearch", "prometheus", "grafana", "ansible", "python"],
-      img: "/project.png",
+      img: "/ifc.jpg",
     },
     {
       title: "container-security-platform",
