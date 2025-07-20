@@ -114,17 +114,16 @@ export default function Hero() {
         <motion.div
           ref={imgRef}
           style={{ rotate }}
-          className="flex items-center justify-center w-[390px] h-[470px] bg-transparent"
+          className="h-image flex items-center w-[310px] h-[380px] xl:w-[390px] xl:h-[470px] justify-center relative"
           initial={{ opacity: 0 }}
           animate={animateIn1}
         >
           <Image
-            src="/harsh.jpg"
+            src="/image.png"
             priority
-            width={390}
-            height={470}
+            fill
             alt="Ade's picture"
-            className="rounded-xl shadow-xl object-cover"
+            className="bg-image-radial px-10 pt-20"
           />
         </motion.div>
       </div>
